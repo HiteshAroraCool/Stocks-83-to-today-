@@ -12,7 +12,7 @@ This project focuses on analyzing the correlation between stock market indices a
 * The WorldBank.org file with inflation data was cleaned and uploaded to Kaggle, and any empty rows were removed using Excel to avoid issues with Kaggle's data upload process.
 * A custom function was created in Python to properly format and clean the data from both the stock and inflation datasets, including transposing the DataFrame, dropping empty rows, and renaming columns.
 * Data was extracted only for the countries of interest and stored in separate dataframes.
-* The same procedure was followed for extracting stock data from sheets of indices and companies for India and the USA, and concatenating the 'close' column with Date as the index in the dataframes, with columns set as stock names.
+* The same procedure was followed for extracting stock data from sheets of indices and companies for India and the USA, and concatenating the 'close (price)' column with Date as the index in the dataframes, with columns set as stock names.
 * Finally, the cleaned and formatted dataframes were downloaded for further analysis in Tableau.
 # Findings
 (You can write about your findings in this section.)
